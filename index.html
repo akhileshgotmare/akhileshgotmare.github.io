@@ -144,8 +144,20 @@ html {
      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
        <tr>
         
-        <td width="25%">
-          <img src='files/mode_conn.png'>
+      <td width="25%">
+      <div class="one">
+          <div class="two" id="place_gif" style="opacity: 0;"><img src="./files/fortified_nets.png" width=150 height=150></div>
+          <img src="./files/mode_conn.png" width=150 height=150>
+      </div>
+      <script type="text/javascript">
+      function place_start() {
+        document.getElementById('place_gif').style.opacity = "1";
+      }
+      function place_stop() {
+        document.getElementById('place_gif').style.opacity = "0";
+      }
+      place_stop()
+      </script>
         </td>
          
         <td valign="top" width="75%">
