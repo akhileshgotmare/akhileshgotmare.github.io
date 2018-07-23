@@ -142,11 +142,23 @@ html {
       </table>
      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
        <tr>
-         width="67%" valign="middle
-         <td width=250 height=300>
-<!--         <td width="25%"> -->
-          <img src='files/mode_conn.png'>
-        </td>
+        
+        <td width="25%">
+        <div class="one">
+        <div class="two" id = 'portrait_image'><img src='portrait_after.png'></div>
+        <img src='files/mode_conn.png'>
+        </div>
+        <script type="text/javascript">
+        function portrait_start() {
+        document.getElementById('portrait_image').style.opacity = "1";
+        }
+        function portrait_stop() {
+        document.getElementById('portrait_image').style.opacity = "0";
+        }
+        portrait_stop()
+        </script>
+      </td>
+         
         <td valign="top" width="75%">
           <p>
               <papertitle>Using Mode Connectivity for Loss Landscape Analysis</papertitle>
