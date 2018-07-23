@@ -160,8 +160,23 @@ html {
       </tr>
      </tbody></table> -->
      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+       <tr>
+        <td width="25%">
+          <img src='iros2018.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p>
+              <papertitle>Kitting in the Wild through Online Domain Adaptation</papertitle>
+            <br>
+            <strong>Massimiliano Mancini</strong>, <a href="https://people.kth.se/~hkarao/index.html">Hakan Karaoguz</a>, <a href="http://elisaricci.eu/">Elisa Ricci</a>, <a href="https://www.kth.se/profile/patric">Patric Jensfelt</a> and <a href="http://heima88.altervista.org/wordpress/">Barbara Caputo</a><br>
+            <em> IROS 2018</em>, October, Madrid (Spain).<br>
+          <a href="https://arxiv.org/pdf/1807.01028.pdf"> paper</a><a href="https://www.nada.kth.se/cas/data/handtool/"> dataset</a><a href="https://raw.githubusercontent.com/mancinimassimiliano/mancinimassimiliano.github.io/master/iros2018.bib"> bibtex</a></p>
+        </td>
+      </tr>
+       
         <tr onmouseout="place_stop()" onmouseover="place_start()">
           <td width="25%">
+            <heading>Publications</heading>
             <script type="text/javascript">
             function place_start() {
               document.getElementById('place_gif').style.opacity = "1";
@@ -175,23 +190,34 @@ html {
               <td valign="top" width="75%">
                 <heading2><i></i></heading2><br>
               <p><a href="">
-                <papertitle> Generalization of Equilibrium Propagation to Vector Field Dynamics</papertitle></a><br>
-              Benjamin Scellier, 
-              <strong>Anirudh Goyal*</strong>,
-              Jonathan Binas,
-              Thomas Mesnard,
-              <a href="www.iro.umontreal.ca/~bengioy/yoshua_en/">Yoshua Bengio</a>,
-                <a href="https://openreview.net/forum?id=BJ5V4ICIG">ICLR'18 Workshop</a>
+                <papertitle> Using Mode Connectivity for Loss Landscape Analysis</papertitle></a><br>
+              <strong>Akhilesh Gotmare</strong>, 
+              Nitish Shirish Keskar,
+              Caiming Xiong,
+              Richard Socher,
+                <a href="https://sites.google.com/view/icml2018nonconvex/papers">ICML 2018 Workshop on Modern Trends 
+                  in Nonconvex Optimization for Machine Learning</a>
               </p><p></p>
               <p>
-                The biological plausibility of the backpropagation algorithm has long been doubted by neuroscientists. Two major reasons are that neurons would need to send two different types of signal in the forward and backward phases, and that pairs of neurons would need to communicate through symmetric bidirectional connections.
-                We present a simple two-phase learning procedure for fixed point recurrent networks that addresses both these issues.
-                In our model, neurons perform leaky integration and synaptic weights are updated through a local mechanism.
-                Our learning method extends the framework of Equilibrium Propagation to general dynamics, relaxing the requirement of an energy function.
-                As a consequence of this generalization, the algorithm does not compute the true gradient of the objective function,
-                but rather approximates it at a precision which is proven to be directly related to the degree of symmetry of the feedforward and feedback weights.
-                We show experimentally that the intrinsic properties of the system lead to alignment of the feedforward and feedback weights, and that our algorithm optimizes the objective function.
-              </p>
+                Mode connectivity is a recently introduced frame-
+                work that empirically establishes the connected-
+                ness of minima by finding a high accuracy curve
+
+                between two independently trained models. To
+                investigate the limits of this setup, we examine
+                the efficacy of this technique in extreme cases
+                where the input models are trained or initialized
+                differently. We find that the procedure is resilient
+                to such changes. Given this finding, we propose
+                using the framework for analyzing loss surfaces
+                and training trajectories more generally, and in
+                this direction, study SGD with cosine annealing
+                and restarts (SGDR). We report that while SGDR
+                moves over barriers in its trajectory, propositions
+                claiming that it converges to and escapes from
+                multiple local minima are not substantiated by
+                our empirical results.
+                </p>
               </td>
             </tr>
         <tr onmouseout="place_stop()" onmouseover="place_start()">
@@ -213,14 +239,11 @@ html {
               <td valign="top" width="75%">
                 <heading2><i></i></heading2><br>
               <p><a href="">
-                <papertitle>Fortified Networks: Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations</papertitle></a><br>
-              Alex Lamb,
-              Jonathan Binas, 
-              <strong>Anirudh Goyal*</strong>,
-              Dmitriy Serdyuk,
-              Sandeep Subramanian,
-              Ioannis Mitliagkas,
-              <a href="www.iro.umontreal.ca/~bengioy/yoshua_en/">Yoshua Bengio</a>,
+                <papertitle>Decoupling Backpropagation using Constrained Optimization Methods</papertitle></a><br>
+              <strong>Akhilesh Gotmare*</strong>,
+              Valentin Thomas*, 
+              Johanni Brea,
+              Martin Jaggi,
                 <a href="https://arxiv.org/abs/1804.02485">arXiv</a>
                 /
                 <a href="https://github.com/anirudh9119/fortified-networks">Code</a>
