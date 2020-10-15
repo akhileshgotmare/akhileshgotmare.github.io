@@ -124,6 +124,37 @@
         </td>
       </tr>
       </table>
+	    
+  <tr onmouseout="portrait_stop()" onmouseover="portrait_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'portrait_image'><img src='files/gedi_logo_small.png' width="175px" height = "175px"></div>
+        <img src='files/network_scan.png' width="175px" height = "175px">
+        </div>
+        <script type="text/javascript">
+        function portrait_start() {
+        document.getElementById('portrait_image').style.opacity = "1";
+        }
+        function portrait_stop() {
+        document.getElementById('portrait_image').style.opacity = "0";
+        }
+        portrait_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+            <papertitle>GeDi: Generative Discriminator Guided Sequence Generation</papertitle>
+	      <br>
+		Ben Krause*, <strong>Akhilesh Gotmare*</strong>, Bryan McCann, Nitish Shirish Keskar, Shafiq Joty, Richard Socher, Nazneen Fatema Rajani
+	      <br>
+	      preprint
+		<br>
+		<a href="https://arxiv.org/abs/2009.06367"> arXiv</a>
+	        <a href="https://blog.einstein.ai/gedi/"> Blog </a>
+	        <a href="https://venturebeat.com/2020/09/18/ai-weekly-cutting-edge-language-models-can-produce-convincing-misinformation-if-we-dont-stop-them/"> VB coverage </a>
+        <p></p>
+
+      </td>
+    </tr>	    
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
    <tr onmouseout="portrait_stop()" onmouseover="portrait_start()" >
